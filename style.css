@@ -1,0 +1,401 @@
+ /*------------fontes-------------*/
+ @font-face {
+     font-family: CodeBold;
+     src: url(CODE-Bold.otf);
+ }
+
+ @font-face {
+     font-family: codeLight;
+     src: url(CODE-Light.otf);
+ }
+
+ @font-face {
+     font-family: calinas;
+     src: url(Calinastiya.ttf);
+ }
+
+ @font-face {
+     font-family: dacherry;
+     src: url(Dacherry.ttf);
+ }
+
+ @font-face {
+     font-family: cakecafe;
+     src: url(Cakecafe.ttf);
+ }
+
+ @font-face {
+     font-family: hack;
+     src: url(HackneyPersonalUseOnly.ttf );
+ }
+
+ @font-face {
+     font-family: nature;
+     src: url(nature.ttf);
+ }
+
+ /*------------------------------*/
+
+
+ .ContainerGaleria {
+     align-items: center;
+ }
+
+
+ * {
+     padding: 0px;
+     margin: 0px;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ header {
+     position: relative;
+     font-size: 30px;
+     padding: 30px;
+     color: aliceblue;
+     text-align: right;
+     background-image: url(assets/capa-header-topo.jpeg );
+     height: 180px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 40% 58%;
+     padding-bottom: 50px;
+ }
+
+
+ .logo {
+     margin-top: -12px;
+     width: 190px;
+     float: left;
+     margin-left: 30px;
+     height: 190px;
+ }
+
+ .title-header {
+     font-size: 60px;
+     font-family: CodeBold;
+     float: right;
+     margin-top: 60px;
+     margin-right: 60px;
+     background-image: linear-gradient(#311111, rgb(231, 62, 51));
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+ }
+
+ .cafe-header {
+     font-family: cakecafe;
+ }
+
+ nav {
+     text-align: right;
+     width: 100%;
+     height: 48px;
+     background-color: rgb(0, 0, 0);
+ }
+
+ nav ul {
+     list-style: none;
+     padding: 0px;
+     margin: 0px;
+
+ }
+
+ li a {
+     color: rgb(231, 62, 51);
+     text-decoration: none;
+     list-style: none;
+     padding: 12px;
+     font-size: 20px;
+ }
+
+ nav li:hover {
+     background-color: rgba(255, 0, 0, 0.341);
+ }
+
+ nav li {
+     font-weight: lighter;
+     font-family: CodeBold;
+     border-radius: 8px;
+     border: 1px outset black;
+     margin: 2px;
+     padding: 8px;
+     height: 20px;
+     display: inline-block;
+     margin-right: 40px;
+
+ }
+
+
+ main {
+     background-color: rgba(210, 186, 150, 0.741);
+     width: 82%;
+     height: 100%;
+     align-items: center;
+ }
+
+
+ aside {
+     border-bottom-left-radius: 18px;
+     border-top-left-radius: 18px;
+     border-style: outset;
+     background-size: cover;
+     background-image: url(assets/aside-banner.jpg);
+     height: 1570px;
+     float: right;
+     width: 280px;
+     position: absolute;
+     top: 308px;
+     right: 0;
+     padding: 10px;
+     background-position:  10% ;
+ }
+
+ /*----------------footer---------------------*/
+
+ footer {
+     background-color: rgb(0, 0, 0);
+     width: 100%;
+     height: 300px;
+     text-align: center;
+ }
+
+ label {
+     color: #f0f0f0;
+     margin-left: 15px;
+ }
+
+ .copy {
+     margin-top: 20px;
+     color: beige;
+     padding: 40px;
+ }
+
+ h4 {
+     color: antiquewhite;
+     padding: 10px;
+ }
+
+ /*------------------------------------------- */
+
+ img {
+     border-radius: 20px;
+     align-items: center;
+     width: 180px;
+     height: 220px;
+     margin-top: -30px;
+     padding: 25px;
+ }
+
+ article {
+     margin-left: 52px;
+     display: inline-block;
+     padding: 10px;
+     padding-bottom: 10px;
+     align-items: center;
+     text-align: center;
+
+ }
+
+ figure:hover {
+     box-shadow: 4px 5px 10px rgba(0, 0, 0, 8);
+     border-radius: 12px;
+ }
+
+ figure {
+     border-radius: 10px;
+     margin-top: 20px;
+     background-color: rgb(231, 62, 51);
+     padding: 30px;
+     align-items: center;
+     text-align: center;
+ }
+
+ section {
+
+     background-color: rgb(53, 36, 26);
+     width: 100%;
+     height: 300px;
+     text-align: center;
+ }
+
+ .catalogo {
+     padding-top: 10px;
+     font-family: codeBold;
+     padding: 15px;
+     text-align: center;
+ }
+
+ /*--------------- estilização artigo do Aside -------------------*/
+
+ .artigo {
+     font-size: 20px;
+     font-family: nature;
+     letter-spacing: 2px;
+     line-height: 150%;
+ }
+
+ .titulos-aside {
+     font-size: 30px;
+     font-family: hack;
+
+ }
+
+ /*------------------------ section link franqueado --------------------------------------*/
+
+
+ .franqueado {
+     color: honeydew;
+     font-family: dacherry;
+     font-size: 25px;
+     margin-top: 140px;
+     text-align: center;
+     display: inline-block;
+
+ }
+
+ .link_franqueado {
+     text-align: center;
+     display: inline-block;
+     margin-left: 60px;
+ }
+
+ .botao-saberMais {
+     background-image: linear-gradient(to bottom right, red, rgb(36, 30, 12));
+     color: honeydew;
+     border-radius: 16px;
+     border: 2px solid rgb(231, 62, 51);
+     font-family: dacherry;
+     font-size: 25px;
+     height: 62px;
+     width: 220px;
+
+ }
+
+ .botao-saberMais:hover {
+     box-shadow: 4px 5px 10px rgba(0, 0, 0, 8);
+ }
+
+ /*--------------tag price figcaption--------------*/
+
+
+
+ .tag {
+     margin-top: 10px;
+     text-align: center;
+
+ }
+
+ .price {
+     font-size: 24px;
+     font-family: hack;
+     margin-top: -50px;
+     text-align: center;
+     margin-bottom: 10px;
+ }
+
+
+ figcaption {
+     font-family: CodeBold;
+     text-align: center;
+     margin-top: -25px;
+     padding-bottom: 20px;
+ }
+
+
+ .botao-img {
+     font-family: codeBold;
+     border-radius: 10px;
+     width: 100px;
+     height: 30px;
+     margin-top: -15px;
+     color: honeydew;
+     background-image: linear-gradient(to bottom right, red, yellow);
+     border: none;
+     border-style: outset;
+
+ }
+
+ .botao-img:hover {
+     color: rgb(231, 62, 51);
+
+ }
+
+ .card {
+     display: inline-block;
+     align-items: center;
+     height: 50%;
+
+ }
+
+
+ .quiero-catalogo {
+     font-family: CodeBold;
+     background-image: linear-gradient(#311111, rgb(231, 62, 51));
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+ }
+
+ .catalogo-cafe {
+     font-family: cakecafe;
+     background-image: linear-gradient(#311111, rgb(231, 62, 51));
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+ }
+
+ .botao-footer {
+     background-image: linear-gradient(to bottom right, red, rgb(36, 30, 12));
+     color: honeydew;
+     border-radius: 16px;
+     border: 2px solid rgb(231, 62, 51);
+     font-family: dacherry;
+     font-size: 20px;
+     height: 32px;
+     width: 120px;
+     margin-left: 18px;
+
+ }
+
+ .botao-footer:hover {
+     box-shadow: 4px 5px 10px rgba(255, 255, 255, 0.8);
+     /* Branca */
+
+ }
+
+ input {
+     font-family: sans-serif;
+     font-size: 20px;
+     width: 300px;
+     height: 27px;
+     border-radius: 16px;
+     border: 2px solid rgb(231, 62, 51);
+     text-align: center;
+ }
+
+ label {
+
+     color: honeydew;
+     border-radius: 16px;
+     border: 2px solid rgb(231, 62, 51);
+     font-family: dacherry;
+     font-size: 20px;
+     margin-right: 8px;
+     padding-left: 8px;
+     padding-right: 8px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+
+ }
+
+ .descricao-registro {
+     padding-top: 40px;
+     font-family: calinas;
+     font-size: 35px;
+     margin-bottom: 20px;
+     color: honeydew;
+ }
